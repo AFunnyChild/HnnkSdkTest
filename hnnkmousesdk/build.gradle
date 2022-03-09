@@ -1,0 +1,75 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+//        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath 'com.tencent.bugly:symtabfileuploader:latest.release'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
+        //   classpath 'com.tencent.bugly:symtabfileuploader:2.2.1'
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+apply plugin: 'com.android.library'
+apply plugin: 'bugly'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.AFunnyChild'
+bugly {
+    appId = "5a7644633a"
+    appKey = "5cb306c3-ae9d-440b-9067-bcc1b52ac3d5"
+//        debug = true
+//        upload=true
+//        execute=true
+//        appVersion=18.1
+//        uploadSymbol=true
+//        uploadMapping=true
+//        appPackage="net.leung.qtmouse"
+}
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+//       applicationId "net.leung.qtmouse"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 22
+        versionName "22.1"
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi-v7a' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = [qt5AndroidDir + '/src', 'src', 'java']
+            aidl.srcDirs = [qt5AndroidDir + '/src', 'src', 'aidl']
+            res.srcDirs = [qt5AndroidDir + '/res', 'res']
+            resources.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.github.AFunnyChild.AndroidLHSBle:LSHHHNKSampleLove:01bb7e8fa9'
+    implementation 'com.github.AFunnyChild:faceoffset:e50dfd133c'
+}

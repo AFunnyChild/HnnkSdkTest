@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hnnk.hnnksdktest">
+
+    <application android:networkSecurityConfig="@xml/network_security_config" android:allowBackup="true" android:supportsRtl="true" android:hardwareAccelerated="true" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="net.leung.qtmouse.LoveApplication" android:theme="@style/Theme.AppCompat" android:roundIcon="@drawable/ic_launcher">
+        <activity android:name="net.leung.qtmouse.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
