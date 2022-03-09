@@ -1,2 +1,2 @@
-include ':app', ':hnnkmousesdk'
+include ':app', ':hnnkmousesdk', ':mylibrary'
 rootProject.name='HnnkSdkTest'

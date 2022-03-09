@@ -2,13 +2,13 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
+
     }
 
     dependencies {
 //        classpath 'com.android.tools.build:gradle:3.5.2'
         classpath 'com.tencent.bugly:symtabfileuploader:latest.release'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
+
         //   classpath 'com.tencent.bugly:symtabfileuploader:2.2.1'
     }
 }
@@ -16,7 +16,7 @@ buildscript {
 repositories {
     google()
     jcenter()
-    maven { url 'https://jitpack.io' }
+
 }
 apply plugin: 'com.android.library'
 apply plugin: 'bugly'
@@ -35,6 +35,7 @@ bugly {
 //        appPackage="net.leung.qtmouse"
 }
 android {
+    packageBuildConfig(false)
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
