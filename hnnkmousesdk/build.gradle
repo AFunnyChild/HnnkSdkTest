@@ -71,6 +71,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.github.AFunnyChild.AndroidLHSBle:LSHHHNKSampleLove:01bb7e8fa9'
+    implementation 'com.github.AFunnyChild.AndroidLHSBle:LSHHHNKSampleLove:b21eff4692'
     implementation 'com.github.AFunnyChild:faceoffset:e50dfd133c'
 }

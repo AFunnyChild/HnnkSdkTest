@@ -1,0 +1,312 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="net.leung.qtmouse"
+5    android:installLocation="auto"
+6    android:versionCode="22"
+7    android:versionName="22.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="21"
+10-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml
+11        android:targetSdkVersion="28" />
+11-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml
+12
+13    <supports-screens
+13-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:65:5-135
+14        android:anyDensity="true"
+14-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:65:80-105
+15        android:largeScreens="true"
+15-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:65:23-50
+16        android:normalScreens="true"
+16-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:65:51-79
+17        android:smallScreens="true" />
+17-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:65:106-133
+18
+19    <!--
+20         The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
+21         Remove the comment if you do not require these default permissions.
+22    -->
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:69:9-71
+23-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:69:26-68
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:70:5-81
+24-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:70:22-78
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:71:5-79
+25-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:71:22-76
+26    <uses-permission android:name="android.permission.BLUETOOTH" />
+26-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:72:5-68
+26-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:72:22-65
+27    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+27-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:73:5-74
+27-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:73:22-71
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+28-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:74:5-81
+28-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:74:22-78
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:75:5-65
+29-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:75:22-62
+30    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+30-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:76:5-71
+30-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:76:22-68
+31
+32    <!--
+33         The following comment will be replaced upon deployment with default features based on the dependencies of the application.
+34         Remove the comment if you do not require these default features.
+35    -->
+36    <uses-feature
+36-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:81:9-89
+37        android:name="android.hardware.camera"
+37-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:81:23-61
+38        android:required="false" />
+38-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:81:62-86
+39    <uses-feature
+39-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:82:5-95
+40        android:name="android.hardware.camera.autofocus"
+40-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:82:19-67
+41        android:required="false" />
+41-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:82:68-92
+42    <uses-feature
+42-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:83:5-89
+43        android:name="android.hardware.microphone"
+43-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:83:19-61
+44        android:required="false" />
+44-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:83:62-86
+45    <uses-feature
+45-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:84:5-78
+46        android:glEsVersion="0x00020000"
+46-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:84:19-51
+47        android:required="true" />
+47-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:84:52-75
+48
+49    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+49-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:86:1-73
+49-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:86:18-71
+50    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+50-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:87:1-74
+50-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:87:18-72
+51    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+51-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:88:5-79
+51-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:88:22-77
+52    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+52-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:89:5-80
+52-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:89:22-78
+53    <uses-permission
+53-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:90:5-120
+54        android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"
+54-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:90:22-82
+55        tools:ignore="ProtectedPermissions" />
+55-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:90:83-118
+56    <uses-permission
+56-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:91:5-108
+57        android:name="android.permission.WRITE_SETTINGS"
+57-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:91:22-70
+58        tools:ignore="ProtectedPermissions" />
+58-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:91:71-106
+59    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+59-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:93:5-74
+59-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:93:22-72
+60    <uses-permission android:name="android.permission.INTERNET" />
+60-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:69:9-71
+60-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:69:26-68
+61    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+61-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:71:5-79
+61-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:71:22-76
+62    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+62-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:96:5-75
+62-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:96:22-73
+63    <uses-permission android:name="android.permission.READ_LOGS" />
+63-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:97:5-67
+63-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:97:22-65
+64    <uses-permission android:name="android.permission.CALL_PHONE" />
+64-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:98:1-64
+64-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:98:18-62
+65
+66    <application>
+66-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:3:5-61:19
+67        <activity
+67-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:4:9-59:16
+68            android:name="net.leung.qtmouse.MainActivity"
+68-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:4:224-269
+69            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+69-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:4:54-223
+70            android:excludeFromRecents="false"
+70-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:4:19-53
+71            android:label="@string/app_name"
+71-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:4:339-371
+72            android:launchMode="singleTop"
+72-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:4:308-338
+73            android:screenOrientation="landscape" >
+73-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:4:270-307
+74
+75            <!-- Application arguments -->
+76            <!-- meta-data android:name="android.app.arguments" android:value="arg1 arg2 arg3"/ -->
+77            <!-- Application arguments -->
+78
+79            <meta-data
+79-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:10:13-86
+80                android:name="android.app.lib_name"
+80-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:10:24-59
+81                android:value="bledebug" />
+81-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:10:60-84
+82            <meta-data
+82-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:11:13-112
+83                android:name="android.app.qt_sources_resource_id"
+83-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:11:24-73
+84                android:resource="@array/qt_sources" />
+84-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:11:74-110
+85            <meta-data
+85-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:12:13-87
+86                android:name="android.app.repository"
+86-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:12:24-61
+87                android:value="default" />
+87-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:12:62-85
+88            <meta-data
+88-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:13:13-106
+89                android:name="android.app.qt_libs_resource_id"
+89-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:13:24-70
+90                android:resource="@array/qt_libs" />
+90-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:13:71-104
+91            <meta-data
+91-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:14:13-116
+92                android:name="android.app.bundled_libs_resource_id"
+92-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:14:24-75
+93                android:resource="@array/bundled_libs" />
+93-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:14:76-114
+94            <!-- Deploy Qt libs as part of package -->
+95            <meta-data
+95-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:16:13-91
+96                android:name="android.app.bundle_local_qt_libs"
+96-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:16:24-71
+97                android:value="1" />
+97-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:16:72-89
+98            <meta-data
+98-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:17:13-120
+99                android:name="android.app.bundled_in_lib_resource_id"
+99-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:17:24-77
+100                android:resource="@array/bundled_in_lib" />
+100-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:17:78-118
+101            <meta-data
+101-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:18:13-126
+102                android:name="android.app.bundled_in_assets_resource_id"
+102-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:18:24-80
+103                android:resource="@array/bundled_in_assets" />
+103-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:18:81-124
+104            <!-- Run with local libs -->
+105            <meta-data
+105-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:20:13-88
+106                android:name="android.app.use_local_qt_libs"
+106-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:20:24-68
+107                android:value="1" />
+107-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:20:69-86
+108            <meta-data
+108-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:21:13-100
+109                android:name="android.app.libs_prefix"
+109-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:21:24-62
+110                android:value="/data/local/tmp/qt/" />
+110-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:21:63-98
+111            <meta-data
+111-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:22:13-265
+112                android:name="android.app.load_local_libs"
+112-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:22:24-66
+113                android:value="plugins/platforms/android/libqtforandroid.so:plugins/bearer/libqandroidbearer.so:plugins/mediaservice/libqtmedia_android.so:lib/libQt5MultimediaQuick.so:lib/libQt5QuickParticles.so" />
+113-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:22:67-263
+114            <meta-data
+114-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:23:13-198
+115                android:name="android.app.load_local_jars"
+115-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:23:24-66
+116                android:value="jar/QtAndroid.jar:jar/QtAndroidBearer.jar:jar/QtAndroidExtras.jar:jar/QtAndroidBluetooth.jar:jar/QtMultimedia.jar" />
+116-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:23:67-196
+117            <meta-data
+117-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:24:13-208
+118                android:name="android.app.static_init_classes"
+118-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:24:24-70
+119                android:value="org.qtproject.qt5.android.bluetooth.QtBluetoothBroadcastReceiver:org.qtproject.qt5.android.multimedia.QtMultimediaUtils" />
+119-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:24:71-206
+120            <!-- Used to specify custom system library path to run with local system libs -->
+121            <!-- <meta-data android:name="android.app.system_libs_prefix" android:value="/system/lib/"/> -->
+122            <!-- Messages maps -->
+123            <meta-data
+123-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:28:13-122
+124                android:name="android.app.ministro_not_found_msg"
+124-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:28:71-120
+125                android:value="@string/ministro_not_found_msg" />
+125-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:28:24-70
+126            <meta-data
+126-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:29:13-116
+127                android:name="android.app.ministro_needed_msg"
+127-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:29:68-114
+128                android:value="@string/ministro_needed_msg" />
+128-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:29:24-67
+129            <meta-data
+129-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:30:13-108
+130                android:name="android.app.fatal_error_msg"
+130-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:30:64-106
+131                android:value="@string/fatal_error_msg" />
+131-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:30:24-63
+132            <!-- Messages maps -->
+133
+134
+135            <!-- Splash screen -->
+136            <meta-data
+136-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:34:3-105
+137                android:name="android.app.splash_screen_drawable"
+137-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:34:14-63
+138                android:resource="@drawable/welcome_bg" />
+138-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:34:64-103
+139            <meta-data
+139-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:35:13-95
+140                android:name="android.app.splash_screen_sticky"
+140-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:35:24-71
+141                android:value="false" />
+141-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:35:72-93
+142            <!-- Splash screen -->
+143
+144
+145            <!-- Background running -->
+146            <!--
+147                 Warning: changing this value to true may cause unexpected crashes if the
+148                          application still try to draw after
+149                          "applicationStateChanged(Qt::ApplicationSuspended)"
+150                          signal is sent!
+151            -->
+152            <meta-data
+152-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:43:13-93
+153                android:name="android.app.background_running"
+153-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:43:24-69
+154                android:value="false" />
+154-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:43:70-91
+155            <!-- Background running -->
+156
+157
+158            <!-- auto screen scale factor -->
+159            <meta-data
+159-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:47:13-99
+160                android:name="android.app.auto_screen_scale_factor"
+160-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:47:24-75
+161                android:value="false" />
+161-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:47:76-97
+162            <!-- auto screen scale factor -->
+163
+164
+165            <!-- extract android style -->
+166            <!--
+167                 available android:values :
+168                * default - In most cases this will be the same as "full", but it can also be something else if needed, e.g., for compatibility reasons
+169                * full - useful QWidget & Quick Controls 1 apps
+170                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+171                * none - useful for apps that don't use any of the above Qt modules
+172            -->
+173            <meta-data
+173-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:57:13-98
+174                android:name="android.app.extract_android_style"
+174-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:57:24-72
+175                android:value="default" />
+175-->E:\20220419desk\HnnkSdkTest\hnnkmousesdk\AndroidManifest.xml:57:73-96
+176            <!-- extract android style -->
+177        </activity>
+178    </application>
+179
+180</manifest>
